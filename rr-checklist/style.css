@@ -26,7 +26,7 @@ body {
     max-width: 280px;
 }
 .char-big-group {
-    width: 95%;
+    max-width: 560px;
 }
 /*
 .server {
