@@ -4,8 +4,6 @@ body {
     font-size: 16px;
     
     background: #e8f5e9;
-    background: -webkit-gradient(linear, left top, right top, from(#e8f5e9), to(#c8e6c9));
-    background: linear-gradient(to right, #e8f5e9, #c8e6c9);
 }
 .return {
     position: absolute;
