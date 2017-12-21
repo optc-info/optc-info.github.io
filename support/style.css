@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+    background: #e8f5e9;
+    background: -webkit-gradient(linear, left top, right top, from(#e8f5e9), to(#c8e6c9));
+    background: linear-gradient(to right, #e8f5e9, #c8e6c9);
+
+}
+.container {
+    display: block;
+    width: 90%;
+    max-width: 42rem;
+    margin: 6rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 1rem;
+}
+hr {
+    border: none;
+    border-top: 2px solid #e0e0e0;
+}
