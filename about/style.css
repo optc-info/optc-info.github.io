@@ -8,6 +8,22 @@ body {
     background: linear-gradient(to right, #fffde7, #fff9c4);
 
 }
+.return {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDY2LjkxNSA2Ni45MTUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY2LjkxNSA2Ni45MTU7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjEuNzYxLDM1LjIwMWgyOC43MDhjMS4xMDQsMCwyLTAuODk2LDItMnMtMC44OTYtMi0yLTJIMjEuNTEybDguMDQ1LTcuODU1YzAuNzgxLTAuNzgxLDAuNzgxLTEuOTUyLDAtMi43MzMgICAgcy0yLjA0OC0wLjczNC0yLjgyOCwwLjA0N0wxNS4zOTQsMzIuMDJjLTAuMzc1LDAuMzc1LTAuNTg2LDAuODk2LTAuNTg2LDEuNDI2czAuMjExLDEuMDQ1LDAuNTg2LDEuNDJMMjYuNzMsNDYuMjAzICAgIGMwLjM5MSwwLjM5MSwwLjkwMiwwLjU4NywxLjQxNCwwLjU4N3MxLjAyNC0wLjE5NCwxLjQxNS0wLjU4NWMwLjc4MS0wLjc4MSwwLjc4MS0yLjIzNywwLTMuMDE4TDIxLjc2MSwzNS4yMDF6IiBmaWxsPSIjMDAwMDAwIi8+CgkJPHBhdGggZD0iTTY2LjkxNSwzMy40NTdDNjYuOTE1LDE1LjAwOSw1MS45MDYsMCwzMy40NTgsMEMxNS4wMDksMCwwLDE1LjAwOSwwLDMzLjQ1N2MwLDE4LjQ0OSwxNS4wMDksMzMuNDU4LDMzLjQ1OCwzMy40NTggICAgQzUxLjkwNyw2Ni45MTUsNjYuOTE1LDUxLjkwNiw2Ni45MTUsMzMuNDU3eiBNNCwzMy40NTdDNCwxNy4yMTUsMTcuMjE1LDQsMzMuNDU4LDRzMjkuNDU3LDEzLjIxNSwyOS40NTcsMjkuNDU3ICAgIGMwLDE2LjI0My0xMy4yMTQsMjkuNDU4LTI5LjQ1NywyOS40NThTNCw0OS43LDQsMzMuNDU3eiIgZmlsbD0iIzAwMDAwMCIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=);
+    background-size: cover;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.return:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
 .container {
     display: block;
     width: 90%;
