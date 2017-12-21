@@ -62,6 +62,9 @@ body {
 .craft article a {
     color: #64dd17;
 }
+.craft article a:hover {
+    color: #fff;
+}
 .first {
     background: #c62828;
     background: -webkit-gradient(linear, left top, left bottom, from(#ff5722), to(#c62828));
