@@ -32,28 +32,6 @@ body {
 .char-big-group {
     max-width: 560px;
 }
-/*
-.server {
-    padding: .5rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #fff;
-    background: #2b90d9;
-    border: 0 none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.server:hover,
-.server:focus {
-    outline: none;
-    opacity: .9;
-    -webkit-transition: .3s all;
-    transition: .3s all;
-}
-.global {
-    display: none;
-}
-*/
 .characters {
     position: relative;
     display: -webkit-box;
